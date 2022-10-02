@@ -1,0 +1,44 @@
+   0 cd /home/mkdir user1
+   1 cd /home/
+   2 mkdir user1
+   3 ls
+   4 cd user1/
+   5 mkdir task1
+   6 ls
+   7 cd task1
+   8 touch file.txt
+   9 cd ..
+  10 system
+  11 history
+  12 cd /opt
+  13 cd /home/
+  14 tree
+  15 pwd
+  16 mkdir /home/user2/task2
+  17 mkdir -p /home/user2/task2
+  18 mkdir -p /home/user2/task2/
+  19 tree
+  20 cd 
+  21 touch /home/user2/task2/file2.txt
+  22 tree
+  23 tree /home
+  24 mkdir /home/user3 /home/user4 /home/user5 /opt/david
+  25 ls home
+  26 ls /home/
+  27 ls /
+  28 ls /home/
+  29 touch /home/user5/filed
+  30 tree
+  31 tree /home/
+  32 cp /home/user1/task1/file.txt  /tmp/1.txt
+  33 ls /tmp/
+  34 nv /home/user2/task2/file2.txt /tmp/
+  35 mv /home/user2/task2/file2.txt /tmp/
+  36 tree
+  37 tree /home/
+  38 mv /tmp/1.txt  /tmp/2.txt
+  39 ls /tmp/
+  40 rmdir --help
+  41 rm -rf /home/user1
+  42 rm -rf /home/user1/
+  43 history > history.txt
